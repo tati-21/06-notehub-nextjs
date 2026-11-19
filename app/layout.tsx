@@ -5,12 +5,16 @@ import TanStackProvider from '@/components/TanStackProvider/TanStackProvider';
 
 import './globals.css';
 
+interface LayoutProps {
+  children: React.ReactNode;
+}
+
 export const metadata: Metadata = {
   title: 'NoteHub',
   description: 'Simple app for managing personal notes',
 };
 
-export default function RootLayout({ children }: LayoutProps<'/'>) {
+export default function RootLayout({ children }: LayoutProps) {
   return (
     <html lang="en">
       <body>
