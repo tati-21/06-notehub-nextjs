@@ -16,12 +16,6 @@ export default function Home() {
           NoteHub offers a streamlined experience for anyone who values clarity
           and productivity.
         </p>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa magni
-          sint architecto nisi perferendis aperiam numquam veniam nam sunt
-          consectetur vero ipsam dolorem voluptate ab repellendus accusamus,
-          alias, sed explicabo!
-        </p>
       </div>
     </main>
   );
